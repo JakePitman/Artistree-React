@@ -26,3 +26,61 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+* {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+/*--------------NAVBAR---------------*/
+.navbar {
+    width: 95%;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar li {
+    text-align: center;
+    width: 100px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 30px;
+    list-style-type: none;
+    margin: 5px;
+}
+
+/*--------------ARTPAGE--------------*/
+
+.art-page {
+    width: 95%;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.art-card {
+    width: 300px;
+    border: 1px solid brown;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.art-card-title {
+    text-align: center;
+}
+
+.art-card img {
+    width: 300px;
+}
+
