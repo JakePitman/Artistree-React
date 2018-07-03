@@ -1,6 +1,4 @@
-const User = require('./User')
-const Profile = require('./Profile')
+const Art = require('./art/Art')
 
-Profile.create({username: 'Eryk'})
+Art.create({title: 'some title', url: 'https://media.wired.com/photos/598e35fb99d76447c4eb1f28/master/pass/phonepicutres-TA.jpg'})
 
-const newProfile = new Profile

@@ -1,5 +1,5 @@
-const mongoose = require('../../connection')
-const User = require('./User')
+const mongoose = require('../../api/connection')
+const User = require('../user/User')
 
 const Schema = mongoose.Schema
 const ObjectId = Schema.ObjectId
