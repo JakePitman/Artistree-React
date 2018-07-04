@@ -13,7 +13,7 @@ const axios = require('axios')
 //})
 
 
-console.log(db)
+
 
 //axios.get('mongodb://localhost:27017/artisree')
     //.then((response) => {console.log(response.data)})
